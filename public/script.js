@@ -22,7 +22,7 @@ $(function() {
       showLoader(true);
       $.ajax({
         type: "POST",
-        url: `http://localhost:5000/api/stream/audio`,
+        url: `https://yt-audio-stream.glitch.me/api/stream/audio`,
         data: {
           url
         },
